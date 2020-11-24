@@ -11,4 +11,8 @@ public class BankAccount {
     public double balance() {
         return balance;
     }
+
+    public void withdraw(double amount) {
+        balance -= amount;
+    }
 }
